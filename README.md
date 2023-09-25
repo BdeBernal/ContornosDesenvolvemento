@@ -1,6 +1,7 @@
-# ContornosD2023
+#ContornosD2023
 
-1111111111111111
-2222222222222222
-3333333333333333
-4444444444444444
+Aplicación para dormir
+
+El usuario podrá seleccionar audios/sonidos para fomentar el sueño.
+EL usuario podrá poner una alarma dependiendo de a que hora duerme/a que hora se levanta caluclando cilos del sueño.
+El usuario podrá monitorear sus ciclos del sueño de dias anteriores.
