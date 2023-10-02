@@ -1,5 +1,6 @@
 ## Guía instalación prolog
 
+
 ```bash
 docker pull swipl
 docker run -it swipl
