@@ -35,6 +35,7 @@ progenitor(marge, lisa).
 abuelo(X, Y):- progenitor(X, Z), progenitor(Z, Y), hombre(X).
 tia(X,Y):- hermana(X,Z), progenitor(Z,Y).
 
+swipl
 consult('programaprolog.pl').
 ```
 
