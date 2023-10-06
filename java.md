@@ -9,7 +9,7 @@ Ctrl+X para guardar el programa escrito en el lenguaje de java
 
 ```bash
 lsb_release -a
-sudo apt install openjdk-17-jre-headless
+sudo apt install openjdk-17-jre-headless ubuntu 20.24
 ```
 Instalar versión de java correcta para el S.O.
 
@@ -19,4 +19,4 @@ Instalar versión de java correcta para el S.O.
 java programa.java
 ```
 
-Ejecución del programa y muestra en pantalla del resultado
+Ejecución del programa.class y muestra en pantalla del resultado
