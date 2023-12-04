@@ -1,0 +1,3 @@
+class Tarea {
+    String descripción;
+}
