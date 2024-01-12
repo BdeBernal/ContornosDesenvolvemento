@@ -1,0 +1,3 @@
+El IDE elegido es IntelliJ IDEA. Es bastante recomendado para la programación en java. Lo malo es que es de pago pero nos ofrece un periodo de prueba de 30 días.
+La guía de instalación es sencilla y detalla para saber en cada línea de comando que estamos haciendo.
+En el siguiente enlace https://www.ingenieriazeros.com/2021/09/instalar-intellij-en-ubuntu-2004.html nos explican brevemente como realizar la instalación.
