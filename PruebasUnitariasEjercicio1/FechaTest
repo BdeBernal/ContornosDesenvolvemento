@@ -1,0 +1,72 @@
+class FechaTest {
+
+	@Test
+	public void fechaBien() {
+		Fecha fechaCorrecta = new Fecha (20, 6, 2008);
+		assertTrue(fechaCorrecta.valida());
+	}
+	
+	@Test
+	public void fechaMal() {
+		Fecha fechaIncorrecta = new Fecha(-1, -1, -1);
+		assertFalse(fechaIncorrecta.valida());
+	}
+	
+	@Test
+	public void mesMal() {
+		Fecha mesMal1 = new Fecha (21, 0, 3000);
+		assertFalse(mesMal1.valida());
+		
+		Fecha mesMal2 = new Fecha (21, 13, 3000);
+		assertFalse(mesMal2.valida());
+	}
+	
+	@Test
+	public void diasMal() {
+		Fecha diaMal1 = new Fecha (0, 11, 2000);
+		assertFalse(diaMal1.valida());
+		
+		Fecha diaMal2 = new Fecha (32, 11, 2000);
+		assertFalse(diaMal2.valida());
+		
+		Fecha diaMalNoviembre = new Fecha (31, 11, 2000);
+		assertFalse(diaMalNoviembre.valida());
+		
+		Fecha diaMalFebrero = new Fecha (30, 2, 2008);
+		assertFalse(diaMalFebrero.valida());
+	}
+	
+	@Test
+	public void diasBien() {
+		Fecha diaBienDiciembre = new Fecha (31, 12, 2000);
+		assertTrue(diaBienDiciembre.valida());
+	}
+	
+	@Test
+	public void diasFebrero() {
+		Fecha diaBienFebreroBisiesto1 = new Fecha (29, 2, 2008);
+		assertTrue(diaBienFebreroBisiesto1.valida());
+		
+		Fecha diaBienFebreroBisiesto2 = new Fecha (29, 2, 2000);
+		assertTrue(diaBienFebreroBisiesto2.valida());
+	
+		Fecha diaMalFebreroBisiesto1 = new Fecha (29, 2, 2007);
+		assertFalse(diaMalFebreroBisiesto1.valida());
+		
+		Fecha diaMalFebreroBisiesto2 = new Fecha (29, 2, 1900);
+		assertFalse(diaMalFebreroBisiesto2.valida());
+	}
+	
+	@Test
+	public void anioMal() {
+		Fecha anioMal = new Fecha(21, 8, -5);
+		assertFalse(anioMal.valida());
+	}
+	
+	@Test
+	public void anioBien() {
+		Fecha anioBien = new Fecha(23, 2, 122);
+		assertTrue(anioBien.valida());
+	}
+
+}
