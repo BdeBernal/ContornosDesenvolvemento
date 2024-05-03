@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'/home/vagrant/prueba/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/prueba/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'prueba 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'prueba 1.0-SNAPSHOT API'
+com.bernal
+/home/vagrant/prueba/src/main/java = 1714375211088
+/home/vagrant/prueba/target/site/apidocs/overview-tree.html = 1714729875474
+/home/vagrant/prueba/target/site/apidocs/script.js = 1714729875490
+/home/vagrant/prueba/target/site/apidocs/module-search-index.js = 1714729875478
+/home/vagrant/prueba/target/site/apidocs/allclasses-index.html = 1714729875478
+/home/vagrant/prueba/target/site/apidocs/type-search-index.js = 1714729875478
+/home/vagrant/prueba/target/site/apidocs/search-page.js = 1714729875494
+/home/vagrant/prueba/target/site/apidocs/link.svg = 1714729875494
+/home/vagrant/prueba/target/site/apidocs/index.html = 1714729875486
+/home/vagrant/prueba/target/site/apidocs/stylesheet.css = 1714729875490
+/home/vagrant/prueba/target/site/apidocs/member-search-index.js = 1714729875478
+/home/vagrant/prueba/target/site/apidocs/search.html = 1714729875486
+/home/vagrant/prueba/target/site/apidocs/allpackages-index.html = 1714729875478
+/home/vagrant/prueba/target/site/apidocs/index-all.html = 1714729875486
+/home/vagrant/prueba/target/site/apidocs/search.js = 1714729875494
+/home/vagrant/prueba/target/site/apidocs/copy.svg = 1714729875494
+/home/vagrant/prueba/target/site/apidocs/tag-search-index.js = 1714729875482
+/home/vagrant/prueba/target/site/apidocs/element-list = 1714729875458
+/home/vagrant/prueba/target/site/apidocs/help-doc.html = 1714729875490
+/home/vagrant/prueba/target/site/apidocs/javadoc.sh = 1714729261963
+/home/vagrant/prueba/target/site/apidocs/package-search-index.js = 1714729875478
